@@ -1,0 +1,15 @@
+<h3>Mitgliedsantrag</h3>
+<form method="post" accept-encoding="utf-8" action="%1$s">
+<table>
+%2$s
+<tr><td colspan="2"><input type="submit" value="%3$s" /></td></tr>
+</table>
+</form>
+<script type="application/javascript">
+    $(document).ready(function() {
+        var d = $('[type="date"]');
+        if (d.prop('type') != 'date') {
+            d.datepick();
+        }
+    });
+</script>
