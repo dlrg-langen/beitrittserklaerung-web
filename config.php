@@ -130,7 +130,7 @@ $infos = [
     ],
     'satzung' => [
         'name' => 'Satzung',
-        'default' => 'Ich erkenne die Satzung der DLRG Ortsgruppe Langen e.V. an.',
+        'default' => 'Ich erkenne die Satzung der DLRG Ortsgruppe Test e.V. an.',
         'required' => false,
         'type' => 'infotext'
     ],
@@ -156,9 +156,9 @@ $parts = [
 $submit = [
     'type' => 'email',
     'config' => [
-        'address' => 'mail@tjarksaul.de',
-        'fromAddress' => 'info@langen-sievern.dlrg.de',
-        'fromName' => 'DLRG Ortsgruppe Langen e.V. - Test',
+        'address' => 'info@test.dlrg.de',
+        'fromAddress' => 'info@test.dlrg.de',
+        'fromName' => 'DLRG Ortsgruppe Test e.V. - Test',
         'smtp' => [
             'use' => false,
             'server' => 'test.example.com',
@@ -169,8 +169,8 @@ $submit = [
     ]
 ];
 
-$gliederung = 'Ortsgruppe Langen e.V.';
-$back = 'http://langen-sievern.dlrg.de/ueber-uns/mitmachen.html';
+$gliederung = 'Ortsgruppe Test e.V.';
+$back = 'http://test.dlrg.de/ueber-uns/mitmachen.html';
 
 /* alternative */
 //$submit = [
