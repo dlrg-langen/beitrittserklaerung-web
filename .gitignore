@@ -4,6 +4,3 @@
 .idea
 out
 gen
-
-lib/jquery/*
-lib/PHPMailer/*
